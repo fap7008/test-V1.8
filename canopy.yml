@@ -1,6 +1,8 @@
 title: Site title
 collection:
-  - hhttps://bcb2507.github.io/jsontest/newtest.json
+  - https://bcb2507.github.io/jsontest/newtest.json
+manifest:
+  - https://bcb2507.github.io/jsontest/newtest.json
 metadata:
   - Subject
   - Date
