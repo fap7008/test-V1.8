@@ -1,8 +1,8 @@
 title: Site title
 collection:
-  - https://bcb2507.github.io/jsontest/newtest.json
+  - https://bcb2507.github.io/jsontest/newtest.json?as=iiif
 manifest:
-  - https://bcb2507.github.io/jsontest/newtest.json
+  - https://bcb2507.github.io/jsontest/newtest.json?as=iiif
 metadata:
   - Subject
   - Date
