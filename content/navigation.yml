@@ -3,3 +3,6 @@ navigation:
     label: Works
   - href: /about
     label: About
+  - href: /blog
+    label: Blog
+    
