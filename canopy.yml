@@ -5,7 +5,7 @@ metadata:
   - Subject
   - Date
   - Language
-  - Genre
+  - Series
 search:
   page:
     title: Search
@@ -29,6 +29,6 @@ search:
         - commenting
         - tagging
 theme:
-  appearance: light
-  accentColor: indigo
-  grayColor: slate
+  appearance: dark
+  accentColor: red
+  grayColor: sand
