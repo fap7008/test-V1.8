@@ -12,24 +12,30 @@
  */
 
 import {orchestrate} from "@canopy-iiif/app/orchestrator";
+import {decodeManifestEntities} from "./decode-manifest-entities.mts";
 
 const err = (msg: string): void => {
   console.error(`[canopy][error] ${msg}`);
 };
 
-orchestrate().catch((error: unknown) => {
-  const message =
-    error &&
-    typeof error === "object" &&
-    "stack" in error &&
-    typeof error.stack === "string"
-      ? error.stack
-      : error &&
-          typeof error === "object" &&
-          "message" in error &&
-          typeof error.message === "string"
-        ? error.message
-        : String(error);
-  err(message);
-  process.exit(1);
-});
+orchestrate()
+  .then(async () => {
+    // Decode HTML entities in manifests after orchestration completes
+    await decodeManifestEntities(".cache/iiif/manifests");
+  })
+  .catch((error: unknown) => {
+    const message =
+      error &&
+      typeof error === "object" &&
+      "stack" in error &&
+      typeof error.stack === "string"
+        ? error.stack
+        : error &&
+            typeof error === "object" &&
+            "message" in error &&
+            typeof error.message === "string"
+          ? error.message
+          : String(error);
+    err(message);
+    process.exit(1);
+  });
