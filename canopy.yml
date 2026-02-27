@@ -1,6 +1,8 @@
 title: Sylvester Manor Test v1.8
 collection:
   - https://bcb2507.github.io/jsontest/smallinteresting.json
+manifests:
+  - https://bcb2507.github.io/jsontest/annotationtest.json
 metadata:
   - Subject
   - Date
@@ -24,7 +26,7 @@ search:
     summary:
       enabled: true
     annotations:
-      enabled: false
+      enabled: true
       motivation:
         - commenting
         - tagging
