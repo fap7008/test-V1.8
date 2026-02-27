@@ -24,7 +24,7 @@ search:
     summary:
       enabled: true
     annotations:
-      enabled: false
+      enabled: true
       motivation:
         - commenting
         - tagging
