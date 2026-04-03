@@ -23,7 +23,7 @@ search:
   index:
     metadata:
       enabled: true
-      all: false
+      all: true
     summary:
       enabled: true
     annotations:
