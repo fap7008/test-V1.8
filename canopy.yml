@@ -5,7 +5,7 @@ collection:
 manifests:
   - https://bcb2507.github.io/jsontest/annotationtest.json
   - https://github.com/fap7008/test-V1.8/blob/main/ActForTheReliefSubjectAreaTEST.json
-  - https://fap7008.github.io/test-V1.8/ComusFanningSubjectAreaTEST.json
+  - https://github.com/fap7008/test-V1.8/blob/main/ComusFanningSubjectAreaTEST.json
 metadata:
   - Subject Area
   - Date
