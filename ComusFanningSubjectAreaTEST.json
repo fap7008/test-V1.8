@@ -525,43 +525,7 @@
       },
       "value": {
         "en": [
-          "Slavery"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Subject Area"
-        ]
-      },
-      "value": {
-        "en": [
-          "Women/Gender"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Subject Area"
-        ]
-      },
-      "value": {
-        "en": [
-          "Free POC"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Subject Area"
-        ]
-      },
-      "value": {
-        "en": [
-          "Life at SM"
+          "Slavery", "Women/Gender", "Free POC", "Life at SM"
         ]
       }
     },
