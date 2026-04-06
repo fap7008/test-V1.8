@@ -133,19 +133,7 @@
       },
       "value": {
         "en": [
-          "Indigenous Peoples"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Subject Area"
-        ]
-      },
-      "value": {
-        "en": [
-          "Settler Colonialism"
+          "Indigenous Peoples", "Settler Colonialism"
         ]
       }
     },
