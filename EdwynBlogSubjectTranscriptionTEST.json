@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://bcb2507.github.io/jsontest/edwynblogonlymetadata.json",
+  "id": "https://raw.githubusercontent.com/fap7008/test-V1.8/refs/heads/main/EdwynBlogSubjectTranscriptionTEST.json",
   "type": "Manifest",
   "label": {
     "en": [
