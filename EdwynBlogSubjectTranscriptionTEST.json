@@ -1,0 +1,383 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://bcb2507.github.io/jsontest/edwynblogonlymetadata.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Financial Record with Notation"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "1"
+        ]
+      },
+      "width": 4843,
+      "height": 7542,
+      "thumbnail": [
+        {
+          "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/1/full/!300,300/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 300,
+          "width": 300,
+          "service": [
+            {
+              "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/1",
+              "type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "@context": "http://iiif.io/api/presentation/3/context.json",
+              "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/annotation/painting/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/1",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/1",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "height": 7542,
+                "width": 4843
+              },
+              "target": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "2"
+        ]
+      },
+      "width": 4847,
+      "height": 7535,
+      "thumbnail": [
+        {
+          "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/2/full/!300,300/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 300,
+          "width": 300,
+          "service": [
+            {
+              "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/2",
+              "type": "ImageService2",
+              "profile": "level1"
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "@context": "http://iiif.io/api/presentation/3/context.json",
+              "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/annotation/painting/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/2",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/2",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ],
+                "height": 7535,
+                "width": 4847
+              },
+              "target": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/canvas/2"
+            }
+          ]
+        }
+      ]
+      }
+    ],
+    "metadata": [
+            {
+    "label": {
+        "en": [
+            "Subject Area"
+        ]
+    },
+    "value": {
+        "en": [
+            "Slavery"
+        ]
+	}	
+    },
+    {
+      "label": {
+        "en": [
+          "Resource"
+        ]
+      },
+      "value": {
+        "en": [
+          "Financial Record with Notation: 1687 September 26"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding Aid Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Guide to the Sylvester Manor Archive MSS.208"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Permanent Link"
+        ]
+      },
+      "value": {
+        "en": [
+          "<a href='https://hdl.handle.net/2333.1/8sf7m7dm'>https://hdl.handle.net/2333.1/8sf7m7dm</a>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Provider"
+        ]
+      },
+      "value": {
+        "en": [
+          "Fales Library & Special Collections"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Finding Aid URL"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://findingaids.library.nyu.edu/fales/mss_208/"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language of Material"
+        ]
+      },
+      "value": {
+        "en": [
+          "Materials are in English."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Financial Record with Notation"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Series"
+        ]
+      },
+      "value": {
+        "en": [
+          "Record Group I: Sylvester, Brinley, and Lloyd Families"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1687 September 26"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Sponsor"
+        ]
+      },
+      "value": {
+        "en": [
+          "The work to process, preserve, digitize, and exhibit this collection was funded by several foundations and individuals. NYU Libraries is especially grateful to the Gerry Charitable Trust, which made the first grant, and to The R. D. L. Gardiner Foundation, which supported digitization of many of the most important items. Other supporters include the Gladys Krieble Delmas Foundation, Double R Foundation, The Andrew W. Mellon Foundation, Moore Charitable Foundation, The Reed Foundation, Richard S. Brookhiser, Robert P. Forbes, Martha Saxton, and Paula T. Jennings. NYU Libraries is grateful to The R. D. L. Gardiner Foundation, which has supported a second major phase of conservation and digitization (2016-2019)."
+        ]
+      }
+    }
+  ],
+  "provider": [
+    {
+      "id": "https://dlib.nyu.edu/",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "NYU Digital Library Technology Services"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://dlib.nyu.edu/",
+          "type": "Text",
+          "label": {
+            "en": [
+              "NYU Digital Library Technology Services"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://sites.dlib.nyu.edu/viewer/sites/all/modules/dlts_viewer/images/nyu-logo.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 900,
+          "width": 900
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "homepage": [
+    {
+      "id": "https://sites.dlib.nyu.edu/viewer/photos/fales_mss208_cuid4772/1",
+      "type": "Text",
+      "label": {
+        "en": [
+          "View on NYU DLTS Viewer"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "partOf": [
+    {
+      "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/collections/mss208:fales/manifest.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "Sylvester Manor Archive"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/1/full/!300,300/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 300,
+      "width": 300,
+      "service": [
+        {
+          "id": "https://sites.dlib.nyu.edu/viewer/api/image/photos/fales_mss208_cuid4772/1",
+          "type": "ImageService2",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Rights"
+      ]
+    },
+    "value": {
+      "en": [
+        "<p>Copyright (or related rights to publicity and privacy) for materials in this collection was not transferred to New York University. Permission to use materials must be secured from the copyright holder. Please contact the Fales Library and Special Collections, fales.library@nyu.edu, 212-998-2596.</p><p>Published citations should take the following form: <br><br> Identification of item, date (if known); Sylvester Manor Archive; MSS 208; box number; folder number; Fales Library and Special Collections, New York University Libraries.</p>"
+      ]
+    }
+  },
+  "annotations": [
+    {
+      "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/annotation/painting/1/transcriptionpage",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/annotation/painting/1/transcription",
+          "type": "Annotation",
+          "motivation": "commenting",
+          "body": {
+            "type": "TextualBody",
+            "language": "en",
+            "format": "text/markdown",
+            "value": "Transcription of page 1: \n\n```\n[Transcription text here]\n```\n"
+          },
+          "target": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/canvas/1"
+        }
+      ]
+    },
+    {
+      "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/annotation/painting/2/transcriptionpage",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/annotation/painting/2/transcription",
+          "type": "Annotation",
+          "motivation": "commenting",
+          "body": {
+            "type": "TextualBody",
+            "language": "en",
+            "format": "text/markdown",
+            "value": "Transcription of page 2: \n\n```\n[Transcription text here]\n```\n"
+          },
+          "target": "https://sites.dlib.nyu.edu/viewer/api/presentation/photos/fales_mss208_cuid4772/canvas/2"
+        }
+      ]
+    }
+  ]
+}
