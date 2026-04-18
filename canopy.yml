@@ -4,6 +4,7 @@ collection:
 manifests:
   - https://bcb2507.github.io/jsontest/annotationtest.json
 metadata:
+  - Transcription Available?
   - Subject Area
   - Date
   - Language
