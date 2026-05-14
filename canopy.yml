@@ -1,6 +1,6 @@
-title: (Ben) Sylvester Manor Test v1.8
+title: (Fabian) Sylvester Manor Test v1.8
 collection:
-  - https://raw.githubusercontent.com/bcb2507/customjsontest/refs/heads/main/collectiontest.json
+  - https://raw.githubusercontent.com/fap7008/customjsontest/refs/heads/main/collectiontest.json
 manifests:
   - https://raw.githubusercontent.com/mathewjordan/customjsontest/refs/heads/main/annotationtest.json
 metadata:
